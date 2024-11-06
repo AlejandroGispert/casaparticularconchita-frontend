@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import defaultBcg from "../images/latest pics/front4NEW.JPG";
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import { RoomContext } from "../context";
@@ -50,7 +50,8 @@ export default class SingleRoom extends Component {
       pets,
       images,
     } = room;
-    const [main, ...defaultImages] = images;
+    // const [main, ...defaultImages] = images;
+    const [...defaultImages] = images;
     // console.log(defaultImages);
 
     // return <div>Hello from single room{room.name}</div>;
