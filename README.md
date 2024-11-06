@@ -1,6 +1,6 @@
 # This is the frontend of the room booking app
 
-I created this booking app to help my growing old parents to manage their room booking requests.
+I created this booking app to help my parents to manage their room booking requests.
 
 ## Run
 
