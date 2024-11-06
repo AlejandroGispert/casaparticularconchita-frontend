@@ -216,7 +216,7 @@ class CreateSB extends Component {
     const { startDate, endDate } = this.state;
     const daysLeft = this.calculateDaysLeft(startDate, endDate);
     const multiply = 40 * daysLeft;
-    this.state.passedpricevalue = multiply;
+    this.setState({ passedpricevalue: multiply });
 
     //the value of room price
     // this.state.passedpricevalue = room.price * daysLeft;

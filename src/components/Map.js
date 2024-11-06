@@ -1,4 +1,4 @@
-import { color } from "@mui/system";
+// import { color } from "@mui/system";
 import React, { Component } from "react";
 import star from "../images/svg/star-full.svg";
 
@@ -111,7 +111,7 @@ export default class Map extends Component {
       <a href="#gallery">Gallery</a> */}
 
           <div className="review-container">
-            <h3>Marit Lehmann</h3>
+            <h3>Margaret Perez</h3>
             {/* <span className="span-to-right">June, 2016</span> */}
 
             <div className="rating">

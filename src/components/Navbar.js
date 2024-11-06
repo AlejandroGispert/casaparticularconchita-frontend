@@ -52,9 +52,9 @@ export default class Navbar extends Component {
                     <Link to="/contact">Contact</Link>
                   </li>
                   {/* )} */}
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link to="/Covidinfo">Covid-19 info</Link>
-                  </li>
+                  </li> */}
                   {!context.token && (
                     <li className="nav-item">
                       <Link to="/auth" id="adminbtn">
