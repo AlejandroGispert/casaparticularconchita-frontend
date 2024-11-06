@@ -6,6 +6,8 @@ I created this booking app to help my growing old parents to manage their room b
 
 In the project directory:
 
+### `npm run build`
+
 ### `npm start`
 
 Runs the app in the development mode.\
